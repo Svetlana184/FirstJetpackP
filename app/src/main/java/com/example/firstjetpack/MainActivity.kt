@@ -134,6 +134,17 @@ fun HelloPreview() {
 
 
 /*
+контейнеры и компоненты:
+- Layout
+
+элементы (наследники layout):
+- Text
+- Image
+- Column
+- Box
+- Row
+- Surface
+
 модификаторы
 - fontsize
 - heignt
@@ -144,6 +155,9 @@ fun HelloPreview() {
 - heightIn(min = 50.dp, max = 300.dp)
 - fillMaxWidth() - ширина на весь экран
 - fillMaxSize(0.5ft) - на весь экран, в скобках - ограничение
+- offset - сдвиг
+- horizontalScroll - прокрутка
+- Clip - закругление элементов
 
 порядок модификаторов имеет значение
  */
