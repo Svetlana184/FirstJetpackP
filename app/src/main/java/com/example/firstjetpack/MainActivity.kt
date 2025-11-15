@@ -35,6 +35,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.firstjetpack.screens.InstagramProfileCard
 import com.example.firstjetpack.ui.theme.FirstJetpackTheme
 
 class MainActivity : ComponentActivity() {
@@ -42,12 +43,12 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-//                FirstJetpackTheme {
-//                    Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-//                        Hello()
-//                    }
-//                }
-            NewStory()
+                FirstJetpackTheme {
+                    Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                        InstagramProfileCard()
+                    }
+                }
+
         }
     }
 }
@@ -129,7 +130,7 @@ fun NewStory(){
 
 @Composable
 fun HelloPreview() {
-    NewStory()
+    InstagramProfileCard()
 }
 
 
