@@ -84,8 +84,9 @@ fun PreviewCardLight(){
         InstagramProfileCard()
     }
 }
+@Preview
 @Composable
-fun PrewiewCardDark(){
+fun PreviewCardDark(){
     FirstJetpackTheme(darkTheme = true) {
         InstagramProfileCard()
     }
