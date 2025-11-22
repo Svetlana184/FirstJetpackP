@@ -146,6 +146,15 @@ fun HelloPreview() {
 - Row
 - Surface
 
+элементы:
+- Text
+- Button
+- TextField - текстовое поле
+- CheckBox - галочка
+- RadioButton - выбор
+-
+
+
 модификаторы
 - fontsize
 - heignt

@@ -57,11 +57,10 @@ fun InstagramProfileCard(){
             Text("Instagram", fontFamily = FontFamily.Cursive, fontSize = 32.sp)
             Text("#Years to make", fontSize = 14.sp)
             Text("www.facebook.com/emotional_support", fontSize = 14.sp)
-            Button(modifier = Modifier.height(40.dp).width(120.dp),
-                onClick = {}, shape = RoundedCornerShape(10.dp),
-                colors = ButtonDefaults.buttonColors(containerColor = Color(0xff2196))) {
-                Text("Follow")
-            }
+            Button(onClick = {}, shape = RoundedCornerShape(10.dp),
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = Color(0xFF2196F3)
+                )) {Text(text = "Follow") }
         }
     }
 
